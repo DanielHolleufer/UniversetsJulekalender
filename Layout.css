@@ -1,0 +1,84 @@
+html {
+	background-image: url("Baggrund_HDF.jpg");
+	background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#Header {
+	margin: auto;
+	text-align: center;
+	height: 240px;
+}
+#Titel {
+    margin: auto;
+    height: 100px;
+    width: 70%;
+    color: white;
+    vertical-align: bottom;
+    font-family: Cambria;
+    text-align: center;
+}
+#Titel > h1 {
+    vertical-align: text-top;
+    line-height: 320px;
+    height: 100px;
+    font-size: 70px;
+}
+#Body {
+	margin: auto;
+	width: 70%;
+    background-color: white;
+    padding-bottom: 50px;
+}
+.Citat > p {
+    margin: auto;
+    height: auto;
+    line-height: 90px;
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.Author {
+    margin-left: 40%;
+}
+.Author > p {
+    margin: auto;
+    height: auto;
+    line-height: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 24px;
+    width: 70%;
+}
+.Tekst {
+    line-height: 30px;
+    text-align: justify;
+    margin: auto;
+    font-size: 20px;
+    width: 70%;
+    font-family: Cambria;
+    padding-bottom: 50px;
+}
+.button-container {
+	margin: auto;
+    width: 1020px;
+    background: black;
+    overflow-y: auto;
+}
+.button-container > a {
+	text-align: center;
+	line-height: 140px;
+    width: 140px;
+    height: 140px;
+    float: left;
+    background: #a50000;
+    margin: 15px;
+    font-size: 48px;
+    font-family: Cambria;
+    text-decoration: none;
+}
+#dag{
+	color: white;
+}
